@@ -1,0 +1,33 @@
+{
+  "name": "@yeqiu/vue-directives",
+  "version": "0.0.1",
+  "description": "vue自定义指令增强库",
+  "main": "./dist/directives.umd.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "vue",
+    "directive",
+    "rollup"
+  ],
+  "author": "yeqiu741",
+  "license": "ISC",
+  "files": [
+    "dist/directives.umd.js",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "devDependencies": {
+    "rollup": "^3.20.2",
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "rollup-plugin-visualizer": "^5.9.0"
+  }
+}
