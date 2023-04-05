@@ -1,4 +1,5 @@
 import directive from './modules/index'
+import { debounce, throttle } from './modules/index'
 /**
  * @description 给Vue抛出的install方法，当通过Vue.use(<本插件>)使用本插件的时候被调用
  * @param { Vue } Vue实例
@@ -18,4 +19,8 @@ function install(vue, opt=[]) {
 }
 export default {
   install
+}
+export {
+  debounce,
+  throttle
 }

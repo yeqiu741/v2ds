@@ -12,6 +12,16 @@ vue自定义指令增强库
   ```js
   Vue.use(directives, [ 'debounce', ... ])
   ```
+- 按需导入(具体vue组件实例)
+  ```js
+  import { debounce, throttle } from '@ylzq/vue-directives'
+  export default {
+    directives: {
+      debounce,
+      throttle
+    }
+  }
+  ```
 ### 当前封装的自定义指令
 - **debounce**
   - 描述：防抖
