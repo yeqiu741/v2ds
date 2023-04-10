@@ -8,8 +8,8 @@
     "build": "rollup -c"
   },
   "repository": {
-    "type": "git",   
-    "url": "https://github.com/yeqiu741/vue-directives.git" 
+    "type": "git",
+    "url": "https://github.com/yeqiu741/vue-directives.git"
   },
   "keywords": [
     "vue",
@@ -25,13 +25,14 @@
     "package.json"
   ],
   "devDependencies": {
-    "rollup": "^3.20.2",
     "@babel/core": "^7.21.3",
+    "@babel/plugin-transform-runtime": "^7.21.4",
     "@babel/preset-env": "^7.20.2",
     "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-terser": "^0.4.0",
+    "rollup": "^3.20.2",
     "rollup-plugin-visualizer": "^5.9.0"
   }
 }
