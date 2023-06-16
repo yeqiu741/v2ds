@@ -1,7 +1,7 @@
 {
-  "name": "@yeqiu/vue-directives",
+  "name": "@yeqiu/vue2-directives",
   "version": "0.0.1",
-  "description": "vue自定义指令增强库",
+  "description": "vue2自定义指令增强库",
   "main": "./dist/directives.umd.js",
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yeqiu741/vue-directives.git"
+    "url": "https://github.com/yeqiu741/vue2-directives.git"
   },
   "keywords": [
     "vue",

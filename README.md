@@ -2,10 +2,10 @@
 vue自定义指令增强库
 
 ### 使用方式: 
-- 安装：`npm i @ylzq/vue-directives -S`
+- 安装：`npm i @ylzq/vue2-directives -S`
 - 全局导入(main.js)：
   ```js
-  import directives from '@ylzq/vue-directives'
+  import directives from '@ylzq/vue2-directives'
   Vue.use(directives)
   ```
 - 按需全局导入：
