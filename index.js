@@ -17,10 +17,10 @@ function install(vue, opt=[]) {
     }
   })
 }
-export default {
-  install
-}
 export {
   debounce,
   throttle
+}
+export default {
+  install
 }

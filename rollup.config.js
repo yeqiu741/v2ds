@@ -17,8 +17,7 @@ export default {
     resolve(),
     commonjs(),
     babel({
-      exclude: 'node_modules/**', // 排除node_modules文件夹下，只编译我们的源代码
-      babelHelpers: "runtime"
+      exclude: 'node_modules/**' // 排除node_modules文件夹下，只编译我们的源代码
     }),
     visualizer(),
     terser()
