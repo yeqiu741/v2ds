@@ -20,6 +20,7 @@ export const throttle = Object.seal({
       if (immediate) fn()
       timer = setTimeout(() => {
         if (!immediate) fn()
+        clearTimeout(timer)
         timer = null
       }, wait)
     }

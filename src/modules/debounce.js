@@ -16,9 +16,13 @@ export const debounce = Object.seal({
     else wait = parseInt(wait)
     let time = null
     const _fn = e => {
-      if (time) time = null
+      if (time) {
+        clearTimeout(time)
+        time = null
+      }
       time = setTimeout(() => {
-        fn()
+        fn(e)
+        clearTimeout(time)
         time = null
       }, wait)
     }
