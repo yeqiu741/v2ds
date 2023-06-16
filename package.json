@@ -1,5 +1,5 @@
 {
-  "name": "@yeqiu/vue2-directives",
+  "name": "@ylzq/vue2-directives",
   "version": "0.0.1",
   "description": "vue2自定义指令增强库",
   "main": "./dist/directives.umd.js",
