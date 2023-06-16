@@ -1,6 +1,6 @@
 {
   "name": "@ylzq/vue2-directives",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "vue2自定义指令增强库",
   "main": "./dist/directives.umd.js",
   "type": "module",
