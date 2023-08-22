@@ -1,20 +1,20 @@
-# vue-directives
+# @ylzq/v2ds
 vue自定义指令增强库
 
 ### 使用方式: 
-- 安装：`npm i @ylzq/vue2-directives -S`
+- 安装：`npm i @ylzq/v2ds -S`
 - 全局导入(main.js)：
   ```js
-  import directives from '@ylzq/vue2-directives'
-  Vue.use(directives)
+  import * as v2ds from '@ylzq/v2ds'
+  Vue.use(v2ds)
   ```
 - 按需全局导入：
   ```js
-  Vue.use(directives, [ 'debounce', ... ])
+  Vue.use(v2ds, [ 'debounce', ... ])
   ```
 - 按需导入(具体vue组件实例)
   ```js
-  import { debounce, throttle } from '@ylzq/vue-directives'
+  import { debounce, throttle } from '@ylzq/v2ds'
   export default {
     directives: {
       debounce,

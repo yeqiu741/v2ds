@@ -1,15 +1,15 @@
 {
-  "name": "@ylzq/vue2-directives",
-  "version": "0.0.2",
+  "name": "@ylzq/v2ds",
+  "version": "0.0.1",
   "description": "vue2自定义指令增强库",
-  "main": "./dist/directives.umd.js",
+  "main": "./dist/v2ds.js",
   "type": "module",
   "scripts": {
     "build": "rollup -c"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yeqiu741/vue2-directives.git"
+    "url": "https://github.com/yeqiu741/v2ds.git"
   },
   "keywords": [
     "vue",
@@ -19,7 +19,7 @@
   "author": "yeqiu741",
   "license": "ISC",
   "files": [
-    "dist/directives.umd.js",
+    "dist/v2ds.js",
     "README.md",
     "LICENSE",
     "package.json"
