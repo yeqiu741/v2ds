@@ -14,7 +14,7 @@ function install(vue, opt=[]) {
   if (!opt instanceof Array) return
   Object.keys(obj).forEach((key) => {
     if (opt.length !== 0) {
-      if (opt.indexOf(key) === -1) {
+      if (opt.indexOf(key) !== -1) {
         vue.directive(key, obj[key])
       }
     } else {
@@ -23,7 +23,7 @@ function install(vue, opt=[]) {
   })
 }
 export {
-  install,
+  install as default,
   debounce,
   throttle
 }

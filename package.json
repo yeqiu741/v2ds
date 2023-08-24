@@ -1,8 +1,8 @@
 {
   "name": "@ylzq/v2ds",
-  "version": "0.0.1",
+  "version": "0.0.12",
   "description": "vue2自定义指令增强库",
-  "main": "./dist/v2ds.js",
+  "module": "./dist/v2ds.js",
   "type": "module",
   "scripts": {
     "build": "rollup -c"

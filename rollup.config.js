@@ -7,11 +7,11 @@ export default {
   input: './src/index.js',
   output: {
     file: 'dist/v2ds.js', // 要打包的文件资源路径也是应用程序的主入口
-    format: 'umd', // 文件的输出格式
+    format: 'es', // 文件的输出格式
     name: 'v2ds', // 包的全局变量名称
     sourcemap: false // 生成.map文件，方便调试
   },
-  // external: [/@babel\/runtime/], // 告诉rollup不要将该模块打包进输出文件里,视其为外部依赖
+  external: [/@babel\/runtime/], // 告诉rollup不要将该模块打包进输出文件里,视其为外部依赖
   plugins: [
     resolve(),
     commonjs(),
@@ -20,9 +20,12 @@ export default {
       babelHelpers: 'runtime',
       plugins: [
         '@babel/plugin-transform-runtime'
+      ],
+      presets: [
+        "@babel/preset-env"
       ]
     }),
     visualizer(),
     terser()
-  ] // 插件
+  ]
 }

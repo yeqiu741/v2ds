@@ -5,7 +5,7 @@ vue自定义指令增强库
 - 安装：`npm i @ylzq/v2ds -S`
 - 全局导入(main.js)：
   ```js
-  import * as v2ds from '@ylzq/v2ds'
+  import v2ds from '@ylzq/v2ds'
   Vue.use(v2ds)
   ```
 - 按需全局导入：
